@@ -1,0 +1,64 @@
+{
+
+  "branchset": [
+    {
+      "filter": {
+        "dnf-expr": [
+          {
+            "clause": [
+              {
+                "term": {
+                  "delta": 0, 
+                  "op": "RULE_EQ", 
+                  "offset": {
+                    "datatype": "RULE_S1_16", 
+                    "name": "udpDestinationPort", 
+                    "value": 5353
+                  }
+                }
+              }, 
+              {
+                "term": {
+                  "delta": 0, 
+                  "op": "RULE_EQ", 
+                  "offset": {
+                    "datatype": "RULE_S1_8",
+                    "name": "protocolIdentifier", 
+                    "value": 17
+                  }
+                }
+              }
+            ]
+          }, 
+          {
+            "clause": [
+              {
+                "term": {
+                  "delta": 0, 
+                  "op": "RULE_EQ", 
+                  "offset": {
+                    "datatype": "RULE_S1_16", 
+                    "name": "udpSourcePort", 
+                    "value": 5353
+                  }
+                }
+              }, 
+              {
+                "term": {
+                  "delta": 0, 
+                  "op": "RULE_EQ", 
+                  "offset": {
+                    "datatype": "RULE_S1_8",
+                    "name": "protocolIdentifier", 
+                    "value": 17
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ], 
+  "ungrouper": {}
+}

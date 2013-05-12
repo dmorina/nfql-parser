@@ -1,0 +1,3 @@
+filter udp{ protocolIdentifier=17
+udpDestinationPort=53
+}

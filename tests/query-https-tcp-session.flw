@@ -1,0 +1,5 @@
+filter v6{ tcpSourcePort=443
+protocolIdentifier=6
+}filter v16{ tcpDestinationPort=443
+protocolIdentifier=6
+}

@@ -1,0 +1,47 @@
+{
+  "branchset": [
+    {
+      "filter": {
+        "dnf-expr": [
+          {
+            "clause": [
+              {
+                "term": {
+                  "delta": 0, 
+                  "op": "RULE_EQ", 
+                  "offset": {
+                    "datatype": "RULE_S1_8",
+                    "name": "protocolIdentifier", 
+                    "value": 6
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }, 
+    {
+      "filter": {
+        "dnf-expr": [
+          {
+            "clause": [
+              {
+                "term": {
+                  "delta": 0, 
+                  "op": "RULE_EQ", 
+                  "offset": {
+                    "datatype": "RULE_S1_8",
+                    "name": "protocolIdentifier", 
+                    "value": 6
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ], 
+  "ungrouper": {}
+}

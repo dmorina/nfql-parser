@@ -1,0 +1,4 @@
+filter v6{ protocolIdentifier=6
+}
+filter v16{ protocolIdentifier=6
+}

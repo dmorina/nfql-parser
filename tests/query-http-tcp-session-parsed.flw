@@ -1,0 +1,7 @@
+filter v16{ tcpDestinationPort=80
+protocolIdentifier=6
+}
+filter v6{ tcpSourcePort=80
+protocolIdentifier=6
+}
+
