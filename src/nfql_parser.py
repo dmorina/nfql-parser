@@ -446,6 +446,7 @@ class Parser :
             | CIDR
             | MAC
             | int
+            | id
             | args
         '''
         p[0] = [p[1]]
